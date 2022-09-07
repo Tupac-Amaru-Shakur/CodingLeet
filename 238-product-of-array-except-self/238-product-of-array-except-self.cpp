@@ -73,9 +73,7 @@ public:
             pro1*=nums[i];
         }
         
-        for(auto &i:ans){
-            cout<<i<<endl;
-        }
+        
         
         int post=nums[n-1];
         for(int i=n-2;i>=0;i--){
